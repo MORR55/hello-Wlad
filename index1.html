@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Владислав Школа – продвижение на маркетплейсах</title>
+  <style>
+    body { margin:0; font-family:Arial, sans-serif; background:#0f0f0f; color:#e5e7eb; }
+    header { display:flex; justify-content:space-between; align-items:center; padding:20px; background:#111827; box-shadow:0 2px 5px rgba(0,0,0,0.5);}
+    header h1 { color:#3b82f6; font-size:18px; font-weight:700; }
+    header button { background:#2563eb; color:#fff; border:none; padding:10px 20px; border-radius:25px; cursor:pointer; }
+    header button:hover { background:#1d4ed8; }
+
+    section { padding:60px 20px; }
+    .hero { text-align:center; background:linear-gradient(135deg,#1f2937,#111827);}
+    .hero h2 { font-size:28px; font-weight:800; margin-bottom:20px; color:#fff;}
+    .hero p { font-size:18px; margin-bottom:30px; color:#9ca3af; }
+    .hero button { background:#2563eb; color:#fff; padding:15px 30px; border:none; border-radius:25px; font-size:16px; cursor:pointer;}
+    .hero button:hover { background:#1d4ed8; }
+
+    .about { display:flex; flex-direction:column; align-items:center; max-width:1000px; margin:auto; gap:20px;}
+    .about img { border-radius:20px; box-shadow:0 4px 15px rgba(0,0,0,0.7);}
+    .about div { max-width:600px; }
+    .about h3 { font-size:24px; margin-bottom:15px; color:#fff; }
+    .about p { color:#d1d5db; }
+
+    .services { background:#1f2937; }
+    .services h3 { text-align:center; font-size:24px; margin-bottom:40px; color:#fff; }
+    .service-grid { display:grid; gap:20px; max-width:1200px; margin:auto; }
+    @media(min-width:768px){ .service-grid{ grid-template-columns:repeat(4,1fr);} }
+    .service-card { background:#111827; padding:20px; border-radius:20px; box-shadow:0 4px 15px rgba(0,0,0,0.7); display:flex; flex-direction:column; justify-content:space-between;}
+    .service-card h4 { margin:10px 0; font-size:18px; color:#fff; }
+    .service-card p { color:#9ca3af; flex-grow:1; }
+    .service-card button { margin-top:15px; background:#2563eb; color:#fff; padding:10px; border:none; border-radius:20px; cursor:pointer; }
+    .service-card button:hover { background:#1d4ed8; }
+
+    .reviews h3 { text-align:center; font-size:24px; margin-bottom:40px; color:#fff;}
+    .reviews-grid { display:grid; gap:20px; max-width:1000px; margin:auto;}
+    @media(min-width:768px){ .reviews-grid{ grid-template-columns:repeat(3,1fr);} }
+    .review-card { background:#111827; padding:20px; border-radius:20px; box-shadow:0 4px 15px rgba(0,0,0,0.7); text-align:center; }
+    .review-card p { font-style:italic; margin-bottom:10px; color:#d1d5db;}
+
+    .contact { background:#1f2937; }
+    .contact h3 { text-align:center; font-size:24px; margin-bottom:20px; color:#fff;}
+    .contact form { max-width:400px; margin:auto; background:#111827; padding:20px; border-radius:20px; box-shadow:0 4px 15px rgba(0,0,0,0.7); display:flex; flex-direction:column; gap:15px;}
+    .contact input { padding:12px; border:1px solid #374151; border-radius:10px; background:#1f2937; color:#fff;}
+    .contact input::placeholder { color:#9ca3af; }
+    .contact button { background:#2563eb; color:#fff; border:none; padding:12px; border-radius:20px; cursor:pointer; }
+    .contact button:hover { background:#1d4ed8; }
+
+    footer { background:#000; color:#9ca3af; text-align:center; padding:30px 20px;}
+    footer p { margin:5px 0; }
+    footer .small { color:#6b7280; font-size:14px;}
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Владислав Школа – продвижение на маркетплейсах</h1>
+    <button>Записаться на консультацию</button>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <h2>Помогу вывести твой товар в ТОП маркетплейсов</h2>
+    <p>Опытный селлер и наставник. Привожу продажи к результату</p>
+    <button>Получить бесплатный разбор</button>
+  </section>
+
+  <!-- About -->
+  <section class="about">
+    <img src="https://via.placeholder.com/250" alt="Владислав" />
+    <div>
+      <h3>Обо мне</h3>
+      <p>Я селлер с опытом более X лет. Запустил Y товаров, вывел Z в топ. Обучаю новичков и сопровождаю бизнес под ключ.</p>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="services">
+    <h3>Услуги</h3>
+    <div class="service-grid">
+      <div class="service-card">
+        <h4>Запуск товара с нуля</h4>
+        <p>Помогу правильно стартовать и избежать ошибок.</p>
+        <button>Оставить заявку</button>
+      </div>
+      <div class="service-card">
+        <h4>Аналитика и стратегия</h4>
+        <p>Составлю эффективный план для роста продаж.</p>
+        <button>Оставить заявку</button>
+      </div>
+      <div class="service-card">
+        <h4>Обучение селлингу</h4>
+        <p>Передам опыт и практические навыки новичкам.</p>
+        <button>Оставить заявку</button>
+      </div>
+      <div class="service-card">
+        <h4>Личное сопровождение</h4>
+        <p>Поддержка на каждом этапе бизнеса.</p>
+        <button>Оставить заявку</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Reviews -->
+  <section class="reviews">
+    <h3>Отзывы</h3>
+    <div class="reviews-grid">
+      <div class="review-card">
+        <p>“Владислав помог вывести мой товар в топ за 2 месяца. Очень доволен результатом!”</p>
+        <span>Клиент 1</span>
+      </div>
+      <div class="review-card">
+        <p>“Крутой наставник! Разложил всё по полочкам.”</p>
+        <span>Клиент 2</span>
+      </div>
+      <div class="review-card">
+        <p>“Сопровождение от начала и до конца — реально спасло мой бизнес.”</p>
+        <span>Клиент 3</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Form -->
+  <section class="contact">
+    <h3>Оставьте заявку</h3>
+    <form>
+      <input type="text" placeholder="Имя" required />
+      <input type="tel" placeholder="Телефон" required />
+      <input type="email" placeholder="Email" required />
+      <button type="submit">Отправить заявку</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>Телеграм | WhatsApp | Email</p>
+    <p class="small">© 2025 Владислав Школа. Все права защищены.</p>
+  </footer>
+
+</body>
+</html>
